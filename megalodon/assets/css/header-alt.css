@@ -1,0 +1,68 @@
+header{
+    background-color: #FFFFFF;
+    
+}
+
+.big-menu ul a {
+    color: #222222;
+}
+
+.big-menu ul li a::before{
+    background: #FF0000;
+}
+
+
+.big-menu ul li a::before {
+    color: #FF0000;
+}
+
+a.header__phone{
+    color: #444444;
+}
+
+a.header__phone:hover {
+    color: #FF0000;
+    transition: .3s all;
+}
+
+
+.header__youtube svg path{
+    stroke: #222222 !important;
+    transition: .3s all;
+}
+
+
+.header__youtube:hover svg path {
+    /* fill: rgb(86, 197, 207) !important; */
+    stroke: #FF0000 !important;
+    transition: .3s all;
+}
+
+.header__youtube:hover svg path path{
+    fill: #FF0000 !important;
+    transition: .3s all;
+}
+
+
+
+.callback-btn{
+    border: 1px solid #2222221A;
+}
+
+.callback-btn svg path{
+    fill: #222222;
+}
+
+.burger::before, .burger::after{
+    background-color: #222222;
+}
+
+.burger::before{
+    box-shadow: 0 11px 0 #222222;
+} 
+
+.callback-btn:hover {
+    background-color: #FF0000;
+    color: #fff;
+    box-shadow: 300px 0 0 0 #FF0000 inset, -300px 0 0 0 #FF0000 inset;
+}

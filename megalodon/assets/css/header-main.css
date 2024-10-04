@@ -1,0 +1,66 @@
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+.big-menu ul a {
+    color: #fff;
+}
+
+.big-menu ul li a::before{
+    background: rgb(86, 197, 207);
+}
+
+
+.big-menu ul li a::before {
+    color: rgb(86, 197, 207);
+}
+
+a.header__phone{
+    color: #fff;
+}
+
+a.header__phone:hover {
+    color: #56C5CF;
+    transition: .3s all;
+}
+
+
+
+.header__youtube svg path {
+    stroke: #fff !important;
+    transition: .3s all;
+}
+
+.header__youtube svg path path{
+    fill: none !important;
+    transition: .3s all;
+}
+
+.header__youtube:hover svg path {
+    stroke: rgb(86, 197, 207) !important;
+    transition: .3s all;
+}
+
+.header__youtube:hover svg path path{
+    fill: rgb(86, 197, 207) !important;
+    transition: .3s all;
+}
+
+.burger::before, .burger::after{
+    background-color: #fff;
+}
+
+.burger::before{
+    box-shadow: 0 11px 0 #fff;
+}
+
+.callback-btn:hover {
+    background-color: #56C5CF;
+    color: #fff;
+    box-shadow: 300px 0 0 0 rgb(86, 197, 207) inset, -300px 0 0 0 rgb(86, 197, 207) inset;
+}
+
+.callback-btn svg path{
+    fill: #fff;
+}
